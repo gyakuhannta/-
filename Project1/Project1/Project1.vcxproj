@@ -127,16 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="ウインドウ.cpp" />
     <ClCompile Include="DXGI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DXGI_a.h" />
-=======
-    <ClCompile Include="directx12.cpp" />
-    <ClCompile Include="ソース.cpp" />
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,5 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\",
   "Documents": [
     {
@@ -14,17 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-=======
-  "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\0117\\Project1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\directx12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 5,
-=======
-          "SelectedChildIndex": 3,
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,7 +37,6 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DXGI_a.h",
@@ -77,28 +60,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-24T06:31:10.405Z"
-=======
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "directx12.cpp",
-              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp",
-              "RelativeDocumentMoniker": "Project1\\directx12.cpp",
-              "ToolTip": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp",
-              "RelativeToolTip": "Project1\\directx12.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-17T07:30:57.06Z",
-              "EditorCaption": ""
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
               "Title": "DXGI.cpp",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI.cpp",
               "RelativeDocumentMoniker": "Project1\\DXGI.cpp",
@@ -107,16 +72,6 @@
               "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-24T06:31:00.683Z",
-=======
-              "Title": "\u30BD\u30FC\u30B9.cpp",
-              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp",
-              "RelativeDocumentMoniker": "Project1\\\u30BD\u30FC\u30B9.cpp",
-              "ToolTip": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp",
-              "RelativeToolTip": "Project1\\\u30BD\u30FC\u30B9.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-17T06:23:50.328Z",
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
               "EditorCaption": ""
             }
           ]

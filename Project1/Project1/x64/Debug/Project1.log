@@ -1,10 +1,2 @@
-<<<<<<< HEAD
 ﻿  ソース.cpp
   Project1.vcxproj -> C:\Users\ktc\Documents\sesd\Project1\x64\Debug\Project1.exe
-=======
-﻿  directx12.cpp
-  ソース.cpp
-  コードを生成中...
-C:\Users\ktc\Documents\0117\Project1\Project1\ソース.cpp(45,1): warning C4003: 関数に似たマクロ呼び出し 'CreateWindowA' の引数が不足しています
-C:\Users\ktc\Documents\0117\Project1\Project1\ソース.cpp(36,14): error C2059: 構文エラー: ')'
->>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8

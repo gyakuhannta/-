@@ -57,9 +57,10 @@
               "RelativeDocumentMoniker": "Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
               "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
               "RelativeToolTip": "Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-24T06:31:10.405Z"
+              "WhenOpened": "2026-01-24T06:31:10.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,7 +70,7 @@
               "RelativeDocumentMoniker": "Project1\\DXGI.cpp",
               "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI.cpp",
               "RelativeToolTip": "Project1\\DXGI.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-24T06:31:00.683Z",
               "EditorCaption": ""

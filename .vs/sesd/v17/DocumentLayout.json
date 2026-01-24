@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\sesd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1\\DXGI_a.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1\\Project1.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj.filters||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1\\Project1.vcxproj.filters||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\directx12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DXGI_a.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h",
+              "RelativeDocumentMoniker": "Project1\\Project1\\DXGI_a.h",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h",
+              "RelativeToolTip": "Project1\\Project1\\DXGI_a.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-24T08:02:38.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Project1.vcxproj.user",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj.user",
               "RelativeDocumentMoniker": "Project1\\Project1\\Project1.vcxproj.user",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Project1.vcxproj.filters",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj.filters",
               "RelativeDocumentMoniker": "Project1\\Project1\\Project1.vcxproj.filters",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Project1.vcxproj",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\Project1.vcxproj",
               "RelativeDocumentMoniker": "Project1\\Project1\\Project1.vcxproj",
@@ -75,11 +92,12 @@
               "RelativeToolTip": "Project1\\Project1\\Project1.vcxproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
-              "WhenOpened": "2026-01-24T06:20:47.745Z"
+              "WhenOpened": "2026-01-24T06:20:47.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "directx12.cpp",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\directx12.cpp",
               "RelativeDocumentMoniker": "Project1\\Project1\\directx12.cpp",

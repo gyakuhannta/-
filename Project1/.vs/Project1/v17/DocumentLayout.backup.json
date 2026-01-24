@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\",
   "Documents": [
     {
@@ -17,6 +18,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\0117\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30BD\u30FC\u30B9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\directx12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +42,38 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{b1ce3aef-c78d-49ee-b72b-ec1fbc908313}"
+=======
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+>>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+=======
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "directx12.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp",
+              "RelativeDocumentMoniker": "Project1\\directx12.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\directx12.cpp",
+              "RelativeToolTip": "Project1\\directx12.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-17T07:30:57.06Z",
+              "EditorCaption": ""
+>>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "\u30D8\u30C3\u30C0\u30FC.h",
               "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30D8\u30C3\u30C0\u30FC.h",
               "RelativeDocumentMoniker": "Project1\\\u30D8\u30C3\u30C0\u30FC.h",
@@ -89,6 +120,17 @@
               "RelativeToolTip": "Project1\\\u30BD\u30FC\u30B9.cpp",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-17T06:23:50.328Z"
+=======
+              "Title": "\u30BD\u30FC\u30B9.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp",
+              "RelativeDocumentMoniker": "Project1\\\u30BD\u30FC\u30B9.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\0117\\Project1\\Project1\\\u30BD\u30FC\u30B9.cpp",
+              "RelativeToolTip": "Project1\\\u30BD\u30FC\u30B9.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-17T06:23:50.328Z",
+              "EditorCaption": ""
+>>>>>>> 2d066aaaf7a815fb2876705a4e778740d5d30cc8
             }
           ]
         }

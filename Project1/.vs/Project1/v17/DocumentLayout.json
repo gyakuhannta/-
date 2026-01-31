@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\ktc\\Documents\\-\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DXGI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30D8\u30C3\u30C0\u30FC.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30D8\u30C3\u30C0\u30FC.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI_a.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DXGI_a.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F690A710-B06A-4660-9FB5-F5AE50B62820}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DXGI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u30D8\u30C3\u30C0\u30FC.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30D8\u30C3\u30C0\u30FC.h",
+              "RelativeDocumentMoniker": "Project1\\\u30D8\u30C3\u30C0\u30FC.h",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30D8\u30C3\u30C0\u30FC.h",
+              "RelativeToolTip": "Project1\\\u30D8\u30C3\u30C0\u30FC.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-31T06:22:17.165Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1ce3aef-c78d-49ee-b72b-ec1fbc908313}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -34,28 +51,28 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{b1ce3aef-c78d-49ee-b72b-ec1fbc908313}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DXGI_a.h",
-              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI_a.h",
               "RelativeDocumentMoniker": "Project1\\DXGI_a.h",
-              "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI_a.h",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI_a.h",
               "RelativeToolTip": "Project1\\DXGI_a.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-24T06:31:31.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
-              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
               "RelativeDocumentMoniker": "Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
-              "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
               "RelativeToolTip": "Project1\\\u30A6\u30A4\u30F3\u30C9\u30A6.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -64,13 +81,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DXGI.cpp",
-              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI.cpp",
               "RelativeDocumentMoniker": "Project1\\DXGI.cpp",
-              "ToolTip": "C:\\Users\\ktc\\Documents\\sesd\\Project1\\Project1\\DXGI.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Documents\\-\\Project1\\Project1\\DXGI.cpp",
               "RelativeToolTip": "Project1\\DXGI.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-24T06:31:00.683Z",
               "EditorCaption": ""

@@ -2,14 +2,34 @@
 #include<windows.h>
 #include "DXGI_a.h"
 #include <cassert>
+#include<d3d12.h>
+#include<dxgi1_6.h>
 
 
 
 
 
-IDXGIAdapter* GetHardwareAdapter(IDXGIFactory4* factory)
+
+IDXGIFactory4* CreateDXGIFactory()//DXGIファクトリーの作成
 {
-	 IDXGIAdapter1* adapter;
+	IDXGIFactory4* factory;
+	UINT createFactoryFlags = 0;
+#if defined(_DEBUG)
+	createFactoryFlags = DXGI_CREATE_FACTORY_DEBUG;
+#endif // defined(_DEBUG)
+	HRESULT hr = CreateDXGIFactory2(createFactoryFlags, IID_PPV_ARGS(&factory));
+
+	if (FAILED(hr))
+	{
+		OutputDebugStringW(L"Failed to create DXGI Factory\n");
+		return nullptr;
+	}
+	return factory;
+
+}
+IDXGIAdapter* GetHardwareAdapter(IDXGIFactory4* factory)//ハードウェアアダプタの取得
+{
+	IDXGIAdapter1* adapter;
 
 	for (UINT adaputerIndex = 0; ; ++adaputerIndex)
 	{
@@ -29,7 +49,7 @@ IDXGIAdapter* GetHardwareAdapter(IDXGIFactory4* factory)
 
 		}
 
-		if (SUCCEEDED(D3D12CreateDevice(adapter, D3D_FEATURE_LEVEL_11_0, _uuidof(ID3D12Device),nullptr)))
+		if (SUCCEEDED(D3D12CreateDevice(adapter, D3D_FEATURE_LEVEL_11_0, _uuidof(ID3D12Device), nullptr)))
 		{
 			return adapter;
 		}
@@ -43,24 +63,7 @@ IDXGIAdapter* GetHardwareAdapter(IDXGIFactory4* factory)
 
 }
 
-IDXGIFactory4* CreateDXGIFactory()
-{
-	IDXGIFactory4* factory;
-	UINT createFactoryFlags = 0;
-#if defined(_DEBUG)
-	createFactoryFlags = DXGI_CREATE_FACTORY_DEBUG;
-#endif // defined(_DEBUG)
-	HRESULT hr = CreateDXGIFactory2(createFactoryFlags, IID_PPV_ARGS(&factory));
-
-	if (FAILED(hr))
-	{
-		OutputDebugStringW(L"Failed to create DXGI Factory\n");
-		return nullptr;
-	}
-	return factory;
-
-}
-ID3D12Device* CreateD3D12Device(IDXGIAdapter1* adapter)
+ID3D12Device* CreateD3D12Device(IDXGIAdapter1* adapter)//デバイスの作成
 {
 	ID3D12Device* device;
 
@@ -89,7 +92,7 @@ ID3D12Device* CreateD3D12Device(IDXGIAdapter1* adapter)
 
 }
 
-ID3D12CommandQueue* CreateCommandQueue(ID3D12Device* device)
+ID3D12CommandQueue* CreateCommandQueue(ID3D12Device* device)//コマンドキューの作成
 {
 
 	D3D12_COMMAND_QUEUE_DESC queueDesc = { };
@@ -108,7 +111,8 @@ ID3D12CommandQueue* CreateCommandQueue(ID3D12Device* device)
 
 	return commandQueue;
 }
-IDXGISwapChain3* CreateSwapChain(IDXGIFactory4* factory, ID3D12CommandQueue* commandQueue, HWND hwnd)
+IDXGISwapChain3* CreateSwapChain
+(IDXGIFactory4* factory, ID3D12CommandQueue* commandQueue, HWND hwnd)//スワップチェーンの作成
 {
 	// スワップチェーンの詳細設定
 	DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {};
@@ -149,7 +153,7 @@ IDXGISwapChain3* CreateSwapChain(IDXGIFactory4* factory, ID3D12CommandQueue* com
 
 	return swapChain;
 }
-void EnableDebugLayer()
+void EnableDebugLayer()//デバッグレイヤーの有効化
 {
 #if defined(_DEBUG)
 	// デバッグインターフェースを取得
@@ -167,4 +171,67 @@ void EnableDebugLayer()
 		}
 	}
 #endif
+}
+ID3D12DescriptorHeap* CreateRTVHeap(ID3D12Device* device)//RTVヒープの作成
+{
+	D3D12_DESCRIPTOR_HEAP_DESC rtvHeapDesc = {};
+	rtvHeapDesc.NumDescriptors = 2;
+	rtvHeapDesc.Type = D3D12_DESCRIPTOR_HEAP_TYPE_RTV;
+	rtvHeapDesc.Flags = D3D12_DESCRIPTOR_HEAP_FLAG_NONE;
+
+	ID3D12DescriptorHeap* rtvHeap = nullptr;;
+	HRESULT hr = device->CreateDescriptorHeap(&rtvHeapDesc, IID_PPV_ARGS(&rtvHeap));
+	if (FAILED(hr))
+	{
+		return nullptr;
+	}
+	return rtvHeap;
+}
+
+ID3D12CommandAllocator* CreateCommandAllocator(ID3D12Device* device)//コマンドアロケータの作成
+{
+
+	ID3D12CommandAllocator* commandAllocator = nullptr;//宣言と初期化
+	HRESULT hr = device->CreateCommandAllocator(
+		D3D12_COMMAND_LIST_TYPE_DIRECT,
+		IID_PPV_ARGS(&commandAllocator)
+	);//メモリ領域の作成
+	if (FAILED(hr))//エラー判定
+	{
+		OutputDebugStringW(L"Failed to create Command Allocator\n");
+		return nullptr;
+	}
+	return commandAllocator;
+}
+
+ID3D12GraphicsCommandList* CreateCommandList
+(ID3D12Device* device, ID3D12CommandAllocator* commandAllocator)//コマンドリストの作成
+{
+	ID3D12GraphicsCommandList* commandList = nullptr;
+	HRESULT hr = device->CreateCommandList(
+		0,                                // マルチGPUではない場合は0
+		D3D12_COMMAND_LIST_TYPE_DIRECT,   // アロケータと同じタイプを指定
+		commandAllocator,                 // 紐付けるメモ帳（アロケータ）
+		nullptr,                          // 最初に使用するパイプライン状態（後ほど設定）
+		IID_PPV_ARGS(&commandList)        // 作成されたリストの格納先
+	);
+	if (FAILED(hr))
+	{
+		OutputDebugStringW(L"Failed to create Command List\n");
+		return nullptr;
+	}
+	return commandList;
+}
+ID3D12Fence* CreateFence(ID3D12Device* device) // フェンスの作成
+{
+	ID3D12Fence* fence = nullptr;
+	// 初期値を0としてフェンスを作成
+	HRESULT hr = device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&fence));
+
+	if (FAILED(hr))
+	{
+		OutputDebugStringW(L"Failed to create Fence\n");
+		return nullptr;
+	}
+	return fence;
 }

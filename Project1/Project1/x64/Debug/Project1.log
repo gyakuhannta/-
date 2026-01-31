@@ -1,2 +1,4 @@
-﻿  ソース.cpp
-  Project1.vcxproj -> C:\Users\ktc\Documents\sesd\Project1\x64\Debug\Project1.exe
+﻿DXGI.obj : error LNK2019: 未解決の外部シンボル D3D12CreateDevice が関数 "struct ID3D12Device * __cdecl CreateD3D12Device(struct IDXGIAdapter1 *)" (?CreateD3D12Device@@YAPEAUID3D12Device@@PEAUIDXGIAdapter1@@@Z) で参照されました
+DXGI.obj : error LNK2019: 未解決の外部シンボル D3D12GetDebugInterface が関数 "void __cdecl EnableDebugLayer(void)" (?EnableDebugLayer@@YAXXZ) で参照されました
+DXGI.obj : error LNK2019: 未解決の外部シンボル CreateDXGIFactory2 が関数 "struct IDXGIFactory4 * __cdecl CreateDXGIFactory(void)" (?CreateDXGIFactory@@YAPEAUIDXGIFactory4@@XZ) で参照されました
+C:\Users\ktc\Documents\-\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 3 件の未解決の外部参照
